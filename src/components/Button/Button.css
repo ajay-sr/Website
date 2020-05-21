@@ -1,0 +1,7 @@
+.btn{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    border-bottom: 5px solid;
+}
