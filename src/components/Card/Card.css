@@ -1,0 +1,17 @@
+.card{
+    border-radius: 10px;
+    border: 1px #222222 solid;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+}
+
+.card .title{
+    max-height: 20%;
+    border-bottom: 1px solid #222222;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 #9FDBFF, 0 6px 20px 0 #9FDBFF;
+    cursor: pointer;
+}

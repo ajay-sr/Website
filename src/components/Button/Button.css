@@ -5,3 +5,7 @@
     overflow: hidden;
     border-bottom: 5px solid;
 }
+
+.btn:hover{
+    cursor: pointer;
+}

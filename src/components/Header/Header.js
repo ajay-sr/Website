@@ -3,9 +3,23 @@ import './Header.css';
 import Button from 'components/Button/Button';
 
 class Header extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {stickyTop:false};
+    }
+    componentDidMount(){
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > window.innerHeight){
+                this.setState({stickyTop: true});
+            } else {
+                this.setState({stickyTop: false});
+            }
+        });
+    }
+
     render () {
     return (
-        <div className="mainHeader">
+        <div className={`mainHeader ${this.state.stickyTop? 'stick': ''}`}>
             <Button className="homeBtn">Ajay</Button>
             <div className="infoSec">
                 <Button>About Me</Button>

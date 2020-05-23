@@ -1,0 +1,1 @@
+// A component that hides info until you scroll on it, then displays in a pop up window where the mouse pointer is
