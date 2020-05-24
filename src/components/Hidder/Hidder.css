@@ -1,0 +1,12 @@
+.hideCont{
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.hideCont.showhidden{
+    visibility: visible;
+}

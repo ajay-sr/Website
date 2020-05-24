@@ -7,6 +7,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
 }
 
 .App-logo {
@@ -51,4 +52,21 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.cardSec .card{
+  min-width: 250px;
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px){
+    .cardSec{
+      flex-direction: column;
+    }
+}
+
+.cardSec .card .content{
+  width: 100%;
+  height: 200px;
+  overflow: auto;
 }

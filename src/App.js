@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from 'components/Header/Header';
 import Card from 'components/Card/Card';
+import Hidder from 'components/Hidder/Hidder';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header/>
       <div className="cardSec">
         <Card title="Skills"><ul>
-          <li>+2 Speed</li>
+          <li><Hidder display="+2 Speed">Increase speed by 2</Hidder></li>
           <li>Adept programming</li>
           <li>Mom slayer</li>
         </ul></Card>
@@ -24,6 +25,7 @@ function App() {
           <li>C</li>
         </ul></Card>
       </div>
+
     </div>
   );
 }
