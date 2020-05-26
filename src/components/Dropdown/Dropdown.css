@@ -1,0 +1,27 @@
+.hidden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    top: 99%;
+    right: 0;
+    width: 150%;
+    padding: 5% 0;
+    border: 1px black solid;
+    height: auto;
+}
+
+.dropdownAcc{
+    width: 100%;
+}
+
+.hidden.display{
+    visibility: visible;
+}
+
+.dropdown{
+    position: relative;
+    width: 200px;
+}

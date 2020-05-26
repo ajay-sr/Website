@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Header.css';
 import Button from 'components/Button/Button';
-
+import Dropdown from 'components/Dropdown/Dropdown';
 class Header extends Component {
     constructor(props) {
         super(props)
@@ -23,7 +23,10 @@ class Header extends Component {
             <div className={`buffer ${this.state.stickyTop? 'stick': ''}`}/>
             <div className={`mainHeader ${this.state.stickyTop? 'stick': ''}`}>
                 <Button className="homeBtn">Ajay</Button>
-                <Button>Projects</Button>
+                <Dropdown title="Projects">
+                    <a className="projectItem" href="https://sample-maker.herokuapp.com/">Sample Maker</a>
+                    <a className="projectItem" href='#'>Fire Emblem Database (WIP)</a>
+                </Dropdown>
             </div>
         </div>)
     };

@@ -41,3 +41,18 @@
     width: auto;
 }
 
+.mainHeader .hidden{
+    background: #E3E1D4;
+}
+
+.projectItem{
+    width: 80%;
+    text-decoration: none;
+    color: black;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    border-bottom: 1px black dotted;
+}
+.projectItems:active{
+    color: black
+}

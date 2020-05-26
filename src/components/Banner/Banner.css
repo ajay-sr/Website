@@ -13,6 +13,13 @@
 
 .siteTitle{
     font-size: 200px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1175px) {
+    .siteTitle{
+        font-size: 100px;
+    }
 }
 
 .startButton{
