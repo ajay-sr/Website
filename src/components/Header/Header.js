@@ -19,7 +19,7 @@ class Header extends Component {
 
     render () {
     return (
-        <div className="wrapper">
+        <div className="wrapper" id="header">
             <div className={`buffer ${this.state.stickyTop? 'stick': ''}`}/>
             <div className={`mainHeader ${this.state.stickyTop? 'stick': ''}`}>
                 <Button className="homeBtn">Ajay</Button>

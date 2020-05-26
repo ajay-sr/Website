@@ -14,7 +14,6 @@ class Hidder extends Component {
 
     moveHidden = (e) => {
         let x = {};
-        console.log(e.clientY);
         if(e.clientY > window.innerHeight - 100) x.bottom =  document.body.scrollHeight - (e.clientY + window.scrollY);
         else x.top = e.clientY + window.scrollY;
         x.left = e.clientX + window.scrollX;
