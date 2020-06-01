@@ -7,7 +7,8 @@
     position: absolute;
     top: 99%;
     right: 0;
-    width: 150%;
+    width: max-content;
+    max-width: 80vw;
     padding: 5% 0;
     border: 1px black solid;
     height: auto;
@@ -15,6 +16,7 @@
 
 .dropdownAcc{
     width: 100%;
+    box-sizing: border-box;
 }
 
 .hidden.display{
@@ -23,5 +25,5 @@
 
 .dropdown{
     position: relative;
-    width: 200px;
+    width: auto;
 }

@@ -4,6 +4,7 @@ import Header from 'components/Header/Header';
 import Card from 'components/Card/Card';
 import Hidder from 'components/Hidder/Hidder';
 import Banner from 'components/Banner/Banner';
+import Contact from 'components/Contact/Contact';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         </div>
         <div className="additionalInfo"></div>
       </div>
-      <div className="contact"></div>
+      <Contact className="contact"></Contact>
     </div>
   );
 }

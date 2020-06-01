@@ -1,0 +1,14 @@
+.contactSec{
+    width: 100%;
+    background: #27272B;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactHeader{
+    padding: 0;
+}
+
+.contactItem{
+    padding: 10px;
+}
