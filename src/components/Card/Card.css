@@ -7,11 +7,13 @@
 }
 
 .card .title{
+    min-height: 30px;
+    font-weight: 550;
     max-height: 20%;
     border-bottom: 1px solid #222222;
+    padding: 2px 0;
 }
 
 .card:hover{
-    box-shadow: 0 4px 8px 0 #9FDBFF, 0 6px 20px 0 #9FDBFF;
-    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(92, 91, 91, 0.2), 0 6px 20px 0 rgba(92, 91, 91, 0.2);
 }
