@@ -9,7 +9,7 @@ import Contact from 'components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <Banner/>
+      <Banner id="top"/>
       <Header/>
       <div className="mainSec">
 

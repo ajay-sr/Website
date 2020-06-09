@@ -1,12 +1,11 @@
-.wrapper{
-    width: 100%;
-}
 .mainHeader{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
     min-height: 50px;
-    background: #27272B;
+    background: rgba(4, 27, 43, 0.8);
     margin-bottom: 10px;
 }
 
@@ -14,22 +13,10 @@
     visibility: hidden;
 }
 
-.buffer.stick{
-    visibility: visible;
-    height: 68px;
-    min-height: 50px;
-    padding-bottom: 10px;
-}
-
-.mainHeader.stick{
-    position: fixed;
-    top: 0;
-}
-
 .mainHeader .btn{
     min-width: 100px;
     padding: 15px 10px;
-    border-color: #27272B;
+    border-color: rgb(4, 27, 43);
 }
 
 .mainHeader .btn:hover{
@@ -45,14 +32,12 @@
     background: #E3E1D4;
 }
 
-.projectItem{
-    width: 80%;
+.headerLink{
     text-decoration: none;
-    color: black;
-    padding-top: 4%;
-    padding-bottom: 2%;
-    border-bottom: 1px black dotted;
+    color: white;
 }
-.projectItems:active{
-    color: black
+
+.nav{
+    display: flex;
+    flex-direction: row;
 }
