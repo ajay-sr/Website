@@ -6,7 +6,7 @@
     width: 100%;
     min-height: 50px;
     background: rgba(4, 27, 43, 0.8);
-    margin-bottom: 10px;
+    z-index: 2;
 }
 
 .buffer{
@@ -20,7 +20,7 @@
 }
 
 .mainHeader .btn:hover{
-    background: #000000;
+    background: rgb(4, 27, 43);
     border-color: #9FDBFF;
 }
 
@@ -40,4 +40,10 @@
 .nav{
     display: flex;
     flex-direction: row;
+}
+
+@media only screen and (max-width: 992px){
+    .nav{
+        display: none;
+    }
 }

@@ -7,8 +7,8 @@ class Header extends Component {
             <div className="homeBtn btn"><a className="headerLink" href="#top">Ajay Rai</a></div>
             <nav className="nav">
                 <div className="btn"><a className="headerLink" href="#experience">Experience</a></div>
-                <div className="btn"><a className="headerLink" href="#experience">Skills</a></div>
-                <div className="btn"><a className="headerLink" href="#experience">Contact</a></div>
+                <div className="btn"><a className="headerLink" href="#skills">Skills</a></div>
+                <div className="btn"><a className="headerLink" href="#contact">Contact</a></div>
             </nav>
         </div>)
     };

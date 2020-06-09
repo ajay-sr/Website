@@ -77,7 +77,7 @@
 .arrowWrapper{
     width: 100%;
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
 }
 
 .bounce{
@@ -89,7 +89,7 @@
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
     60% {
         transform: translateY(-15px);

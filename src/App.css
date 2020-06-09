@@ -14,6 +14,64 @@ html{
   position: relative;
 }
 
+.mainDisplay{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.experience{
+  background-image: url("./images/experience.jpg");
+}
+
+.skills{
+  background-image: url("./images/test.jpg");
+}
+
+.heading{
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.card{
+  width: 50%;
+}
+
+.position{
+  font-size: 22px;
+}
+
+.addInfo{
+  font-weight: 350;
+}
+
+hr{
+  width: 100px;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 992px){
+  .card{
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
 .quickSumm{
   display: flex;
   min-width: 30vw;
@@ -25,11 +83,6 @@ html{
   display:flex;
   flex-direction: column;
   align-items:center;
-}
-
-.card{
-  background: #E3E1D4;
-  padding: 0 10px;
 }
 
 .cardSec{
@@ -101,10 +154,9 @@ html{
 .contact{
   width: 100%;
   height: 200px;
-  background: #27272B;
 }
 
-.heading{
+.heading-old{
   color: black;
   text-align: left;
   margin: 15px;

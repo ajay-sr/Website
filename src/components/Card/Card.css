@@ -1,17 +1,39 @@
 .card{
-    border-radius: 10px;
-    border: 1px #222222 solid;
+    border-radius: 5px;
     color: #000000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 1%;
+    position: relative;
+    background: #FFFFFF;
 }
 
 .card .title{
+    border-radius: 5px 5px 0 0;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     min-height: 30px;
-    font-weight: 550;
     max-height: 20%;
-    border-bottom: 1px solid #222222;
-    padding: 2px 0;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.card h4{
+    margin: 0;
+    font-weight: 500;
+    height: min-content;
+}
+
+.content{
+    padding: 24px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.icon{
+    max-height: 50px;
 }
 
 .card:hover{
