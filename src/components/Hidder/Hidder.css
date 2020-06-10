@@ -1,12 +1,33 @@
-.hideCont{
-    position: absolute;
-    visibility: hidden;
-    background: white;
-    border: 1px black solid;
+.hidder{
     border-radius: 10px;
-    padding: 1%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.75rem;
+    height: 200px;
+    padding-bottom: 15px; 
+    opacity: 0.95;
 }
 
-.hideCont.showhidden{
-    visibility: visible;
+.showCont{
+    padding: 0.5em;
+    margin: 0;
+    opacity: 1;
+}
+
+.hidder:hover{
+    opacity: 1;
+}
+
+.hidden{
+    display: none;
+    padding-top: 0.83em;
+    width: 50%;
+}
+
+.hidder:hover .hidden{
+    display: block;
+    border-top: 1px black solid;
 }
